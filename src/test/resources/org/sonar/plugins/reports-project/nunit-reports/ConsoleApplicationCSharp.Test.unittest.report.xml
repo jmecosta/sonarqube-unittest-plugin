@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="" total="2" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-07-10" time="13.42.39">
+  <environment nunit-version="1.0.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.10586.0" platform="Win32NT" cwd="E:\Development\SonarQube\cxx\ConsoleApp" machine-name="JOCS8" user="jocs" user-domain="TEKLAAD" />
+  <culture-info current-culture="fi-FI" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="ConsoleApplicationCSharp.Test.dll" executed="True" result="Success" success="True" time="0,102" asserts="2">
+    <properties>
+      <property name="_PID" value="30532" />
+      <property name="_APPDOMAIN" value="test-domain-" />
+    </properties>
+    <results>
+      <test-suite type="TestSuite" name="ConsoleApplicationCSharp" executed="True" result="Success" success="True" time="0,074" asserts="2">
+        <results>
+          <test-suite type="TestSuite" name="Test" executed="True" result="Success" success="True" time="0,073" asserts="2">
+            <results>
+              <test-suite type="TestFixture" name="TestConsole" executed="True" result="Success" success="True" time="0,071" asserts="2">
+                <results>
+                  <test-case name="TestSomething" executed="True" result="Success" success="True" time="0,009" asserts="1" />
+                  <test-case name="TestVersion" executed="True" result="Success" success="True" time="0,041" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
